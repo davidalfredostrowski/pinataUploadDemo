@@ -1,0 +1,67 @@
+ sudo apt-get update
+    2  sudo mkdir -p /etc/apt/keyrings
+    3  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+    4  NODE_MAJOR=22
+    5  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+    6  sudo apt-get update
+    7  sudo apt-get install nodejs -y
+    8  npm install web3
+    9  npm install --save-dev hardhat hardhat-toolbox-viem ethers@6
+   10  npm install @openzeppelin/contracts@4.5.0
+   11  npx hardhat init
+   12  history
+   13  npx hardhat --init
+   14  LS
+   15  ls
+   16  npx create-react-app pinata
+   17  ls
+   18  history
+   19  ls
+   20  cd pinata
+   21  ls
+   22  mkdir server
+   23  cd server
+   24  npm init -y
+   25  npm i express multer cors dotenv @pinata/sdk
+   26  vi .env
+   27  ls
+   28  vi .env.development.local
+   29  ls
+   30  vi server.js
+   31  noder server.js
+   32  node server.js
+   33  ls
+   34  vi .env
+   35  node server.js
+   36  ls
+   37  vi server.js
+   38  node server.js
+   39  ls
+   40  source .env
+   41  node server.js
+   42  vi server.js
+   43  vi .env.development.local
+   44  ls
+   45  vi package.json
+   46  ls
+   47  cd ..
+   48  cd src
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd src
+   53  ls
+   54  vi index.js
+   55  vi App.js
+   56  npm start
+   57  vi App.js
+   58  npm start
+   59  vi App.js
+   60  npm start
+   61  ls
+   62  vi App.js
+   63  npm start
+   64  vi App.js
+   65  npm start
+   66  history
+ubuntu@ip-172-31-42-83:~/pinata/src$
