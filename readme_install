@@ -8,8 +8,7 @@
     8  npm install web3
     9  npm install --save-dev hardhat hardhat-toolbox-viem ethers@6
    10  npm install @openzeppelin/contracts@4.5.0
-   11  npx hardhat init
-   12  history
+  
    13  npx hardhat --init
    14  LS
    15  ls
